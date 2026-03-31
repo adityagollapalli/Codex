@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+.venv-verify/
+venv/
+
+# Environment and secrets
+.env
+
+# Runtime artifacts
+data/documind.db
+data/vector_store.json
+data/uploads/*
+data/chroma/*
+!data/.gitkeep
+!data/uploads/.gitkeep
+!data/chroma/.gitkeep
+
+# IDE
+.vscode/
+.idea/
